@@ -1,0 +1,50 @@
+<!DOCTYPE html> 
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Home Page</title>
+        <!-- Load Bootstrap CSS -->
+        <link href="style.css" rel="stylesheet" type="text/css"/>
+        <link href="nav.css" rel="stylesheet" type="text/css"/>
+
+    </head>
+    <body>
+       <!-- <div class="container">
+            <h1>Welcome to the Home page!</h1>
+            <h2>Licence Renewal</h2>
+            <div class="page">
+                <a href="#">Book Here</a>
+            </div>
+        </div>-->
+        <nav class="nav">
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="booklicence.html">License Renewal Booking</a></li>
+                <li><a href="Login.html">Login</a></li>
+            </ul>
+
+        </nav>
+        <br>
+        <br>
+        <h1>Welcome to the Home page! <a href="Login.html">Login</a></h1>
+        <div class="card">
+           <!--- <img src="driving-licence-icon.png" alt="Driving Licence Icon">-->
+            <p>Book now to renew your Driving Licence Card</p>
+            <button onclick="renewPage()">BOOK NOW</button>
+          </div>
+          
+          <div class="card">
+           <!--- <img src="learner-licence-icon.png" alt="Learner's Licence Icon"> -->
+            <p>Digital Licence</p>
+            <button>BOOK NOW</button>
+          </div>
+          <script>
+            function renewPage() {
+             window.location.href = "booklicence.html";
+            }
+            </script>
+    </body>
+</html>
+

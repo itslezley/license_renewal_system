@@ -1,0 +1,53 @@
+/*.page{
+text-align: center;    
+    background-color: blueviolet;
+
+    font-size: 30px;
+
+}*/
+ h1{
+    font-size: 40px;
+    
+
+}
+
+.card {
+    border: 3px solid #ccc;
+    padding: 20px;
+    margin: 20px;
+    width: 300px;
+  
+ /*justify-content: center;
+ align-items: center;
+ position: absolute;
+ top: 20px;
+ left: 0;
+ right: 0;
+ bottom: 400px;*/
+ 
+
+}
+
+.card img {
+    width:50px;
+}
+
+.card p {
+    font-size:20px;
+}
+
+.card button {
+    background-color:#5b5aa5; /* Purple */
+    border:none;
+    color:white;
+    padding:15px 32px;
+    text-align:center;
+    text-decoration:none;
+    display:inline-block;
+   font-size:16px; 
+   cursor: pointer;
+}
+.card button:hover{
+    background-color: darkblue;
+    opacity: 0.8;
+}
